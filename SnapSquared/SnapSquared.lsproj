@@ -3,7 +3,7 @@
     "document_id": "h1VCr4URAmzK6Nm3b5VE",
     "original_document_id": "h1VCr4URAmzK6Nm3b5VE",
     "version": "29",
-    "lastChanged": "1664069958584",
+    "lastChanged": "1664077602728",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -56,6 +56,28 @@
                     ],
                     [
                         "Player_Card_Randomiser"
+                    ],
+                    [
+                        "ScoringScripts",
+                        "EndGame"
+                    ],
+                    [
+                        "ScoringScripts",
+                        "IncrementP1"
+                    ],
+                    [
+                        "ScoringScripts",
+                        "IncrementP2"
+                    ],
+                    [
+                        "ScoringScripts",
+                        "Scoreboard"
+                    ],
+                    [
+                        "Test"
+                    ],
+                    [
+                        "Textures"
                     ],
                     [
                         "Textures",
@@ -215,6 +237,10 @@
                     ],
                     [
                         "Textures",
+                        "New Folder"
+                    ],
+                    [
+                        "Textures",
                         "ace_of_clubs"
                     ],
                     [
@@ -228,6 +254,14 @@
                     [
                         "Textures",
                         "ace_of_spades"
+                    ],
+                    [
+                        "Textures",
+                        "clear_img"
+                    ],
+                    [
+                        "Textures",
+                        "face_cards"
                     ],
                     [
                         "Textures",
@@ -488,6 +522,10 @@
                         "Textures",
                         "face_cards",
                         "queen_of_spades2"
+                    ],
+                    [
+                        "Textures",
+                        "snap_animated_gif"
                     ]
                 ]
             ]
@@ -495,6 +533,7 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
+                    "1517446348227994:84813",
                     "1663991022167412:15138"
                 ]
             ],
@@ -517,7 +556,7 @@
             "preview_images_project_config": {
                 "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_id": "bundle:Preview\/Images\/Pair 1.jpg",
                 "front_preview_is_favorite": "false"
             },
             "preview_videos_project_config": {
@@ -1398,6 +1437,62 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "125",
+                    "uid": "1664071589033220:381981",
+                    "name": "Files\/File427",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "126",
+                    "uid": "1664072031741521:414725",
+                    "name": "Files\/File431.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "127",
+                    "uid": "1664072762909547:469658",
+                    "name": "Files\/File435.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "128",
+                    "uid": "1664076499819089:681324",
+                    "name": "Files\/File436.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "129",
+                    "uid": "1664076572965833:689770",
+                    "name": "Files\/File437.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "130",
+                    "uid": "1664076594536476:693030",
+                    "name": "Files\/File438.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "131",
+                    "uid": "1664076603267493:694844",
+                    "name": "Files\/File439.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1430,14 +1525,18 @@
                 "6": "1663985445515968:10313",
                 "7": "1663985980042705:31641",
                 "8": "1663989556148403:142151",
-                "9": "1663991022167412:15138",
-                "10": "1663991074083200:17145",
-                "11": "1664067112558349:67177",
-                "12": "1664068680444033:182630",
-                "13": "1664068680445783:182632",
-                "14": "1664068680446913:182634",
-                "15": "1664068680477073:182708",
-                "16": "1664068680484740:182723"
+                "9": "1664067112558349:67177",
+                "10": "1664068680444033:182630",
+                "11": "1664068680445783:182632",
+                "12": "1664068680446913:182634",
+                "13": "1664068680477073:182708",
+                "14": "1664068680484740:182723",
+                "15": "1664071925345104:407172",
+                "16": "1664073074047861:498699",
+                "17": "1664073247592180:514187",
+                "18": "1664077259414575:749582",
+                "19": "1664077532958164:774611",
+                "20": "1664077576074257:781317"
             }
         },
         "LayerComponent": {
@@ -3011,6 +3110,58 @@
                 {
                     "k": "426",
                     "v": "Files\/File426.pvr"
+                },
+                {
+                    "k": "427",
+                    "v": "Files\/File427"
+                },
+                {
+                    "k": "428",
+                    "v": "Files\/File428.gif"
+                },
+                {
+                    "k": "429",
+                    "v": "Files\/File429"
+                },
+                {
+                    "k": "430",
+                    "v": "Files\/File430"
+                },
+                {
+                    "k": "431",
+                    "v": "Files\/File431.pvr"
+                },
+                {
+                    "k": "432",
+                    "v": "Files\/File432.png"
+                },
+                {
+                    "k": "433",
+                    "v": "Files\/File433.png"
+                },
+                {
+                    "k": "434",
+                    "v": "Files\/File434.pvr"
+                },
+                {
+                    "k": "435",
+                    "v": "Files\/File435.js"
+                },
+                {
+                    "k": "436",
+                    "v": "Files\/File436.js"
+                },
+                {
+                    "k": "437",
+                    "v": "Files\/File437.js"
+                },
+                {
+                    "k": "438",
+                    "v": "Files\/File438.js"
+                },
+                {
+                    "k": "439",
+                    "v": "Files\/File439.js"
                 }
             ]
         },
@@ -3440,6 +3591,42 @@
                     {
                         "k": "1081",
                         "v": "Player_Card_Randomiser.js"
+                    },
+                    {
+                        "k": "1082",
+                        "v": "Textures\/snap_animated_gif.gif"
+                    },
+                    {
+                        "k": "1083",
+                        "v": "Textures\/clear_img.png"
+                    },
+                    {
+                        "k": "1084",
+                        "v": "Test.js"
+                    },
+                    {
+                        "k": "1085",
+                        "v": "Textures\/New Folder"
+                    },
+                    {
+                        "k": "1086",
+                        "v": "ScoringScripts"
+                    },
+                    {
+                        "k": "1087",
+                        "v": "ScoringScripts\/Scoreboard.js"
+                    },
+                    {
+                        "k": "1088",
+                        "v": "ScoringScripts\/IncrementP1.js"
+                    },
+                    {
+                        "k": "1089",
+                        "v": "ScoringScripts\/IncrementP2.js"
+                    },
+                    {
+                        "k": "1090",
+                        "v": "ScoringScripts\/EndGame.js"
                     }
                 ],
                 "hashes": [
@@ -3901,15 +4088,43 @@
                     },
                     {
                         "k": "1081",
-                        "v": "aad33935ce44e4c69b4da72cbab5e82b"
+                        "v": "d75708ff4bd3021f4a297dc420874f8c"
+                    },
+                    {
+                        "k": "1082",
+                        "v": "cc1dfe09f977bcace56b63de69fbd01c"
+                    },
+                    {
+                        "k": "1083",
+                        "v": "d4d6dafea9e7488ce9c790ae221487e5"
+                    },
+                    {
+                        "k": "1084",
+                        "v": "59361291686fd7cebf3981836238abbb"
+                    },
+                    {
+                        "k": "1087",
+                        "v": "6ce3f0a6b63ae4f75c3b6ace3cdc8eea"
+                    },
+                    {
+                        "k": "1088",
+                        "v": "f2a97a8583b9642e3110b7aecf1b4b03"
+                    },
+                    {
+                        "k": "1089",
+                        "v": "6fc0ac4f97a4703c5360604e4cf34a13"
+                    },
+                    {
+                        "k": "1090",
+                        "v": "bf888d2bced7d8ae2a196086fa6a0dc7"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-09-25T11:38:50",
+                        "lastModified": "2022-09-25T13:42:54",
                         "name": "Public",
-                        "hash": "9772597560be16d8b5ae9987b68dc6fc",
+                        "hash": "54357158d8e5836a9c42187acb903fc3",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -3934,7 +4149,7 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-09-25T10:45:26",
+                                "lastModified": "2022-09-25T12:23:57",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -3948,16 +4163,66 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-09-25T11:38:50",
+                                "lastModified": "2022-09-25T13:42:54",
                                 "name": "Player_Card_Randomiser.js",
-                                "hash": "aad33935ce44e4c69b4da72cbab5e82b",
+                                "hash": "d75708ff4bd3021f4a297dc420874f8c",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-09-25T10:50:44",
+                                "lastModified": "2022-09-25T13:43:54",
+                                "name": "ScoringScripts",
+                                "hash": "00085fbf2169f11156ca3343468af8d3",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-09-25T13:30:51",
+                                        "name": "EndGame.js",
+                                        "hash": "bf888d2bced7d8ae2a196086fa6a0dc7",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-09-25T13:28:09",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-09-25T13:43:51",
+                                        "name": "IncrementP1.js",
+                                        "hash": "f2a97a8583b9642e3110b7aecf1b4b03",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-09-25T13:43:54",
+                                        "name": "IncrementP2.js",
+                                        "hash": "6fc0ac4f97a4703c5360604e4cf34a13",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-09-25T13:34:02",
+                                        "name": "Scoreboard.js",
+                                        "hash": "6ce3f0a6b63ae4f75c3b6ace3cdc8eea",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-09-25T13:23:38",
+                                "name": "Test.js",
+                                "hash": "59361291686fd7cebf3981836238abbb",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-09-25T13:28:03",
                                 "name": "Textures",
-                                "hash": "cb74a2c80b3d7c809f73312ee7f0158a",
+                                "hash": "6ee9bac99d6208a9abb3e1981c7d04a2",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4255,6 +4520,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2022-09-25T12:13:50",
+                                        "name": "clear_img.png",
+                                        "hash": "d4d6dafea9e7488ce9c790ae221487e5",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2022-09-25T10:45:13",
                                         "name": "Face Mesh Texture.jpg",
                                         "hash": "c1b22adb808b801d453498c35c300b9a",
@@ -4548,7 +4820,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-09-25T10:45:26",
+                                                "lastModified": "2022-09-25T12:23:57",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4641,9 +4913,31 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T10:45:26",
+                                        "lastModified": "2022-09-25T12:23:57",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-09-25T13:28:03",
+                                        "name": "New Folder",
+                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-09-25T13:28:03",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-09-25T12:06:27",
+                                        "name": "snap_animated_gif.gif",
+                                        "hash": "cc1dfe09f977bcace56b63de69fbd01c",
                                         "children": ""
                                     }
                                 ]
@@ -4656,7 +4950,7 @@
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T10:45:26",
+                                        "lastModified": "2022-09-25T12:23:57",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -6376,6 +6670,51 @@
                                         }
                                     }
                                 ]
+                            },
+                            {
+                                "name": "snap_animated_gif",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "125",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1664071589033220:381981",
+                                "fileId": "427",
+                                "originalId": "428",
+                                "publicId": "1082",
+                                "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiopmHksVvqnFwh\/animation.t3d",
+                                "additional": ""
+                            },
+                            {
+                                "name": "clear_img",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "126",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1664072031741521:414725",
+                                "fileId": "431",
+                                "originalId": "432",
+                                "publicId": "1083",
+                                "source": "C:\/Users\/t-haardshah\/Documents\/Projects\/WIT_Hackathon\/Snap_Squared\/SnapSquared\/Public\/Textures\/clear_img.png",
+                                "additional": {
+                                    "originHash": "d4d6dafea9e7488ce9c790ae221487e5"
+                                }
+                            },
+                            {
+                                "name": "New Folder",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1085",
+                                "source": "",
+                                "additional": "",
+                                "resources": ""
                             }
                         ]
                     },
@@ -6435,6 +6774,92 @@
                         "publicId": "1081",
                         "source": "C:\/Users\/t-haardshah\/Documents\/Projects\/WIT_Hackathon\/Snap_Squared\/SnapSquared\/Public\/Testing.js",
                         "additional": ""
+                    },
+                    {
+                        "name": "Test",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "127",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1664072762909547:469658",
+                        "fileId": "435",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1084",
+                        "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioWCKSoVcoBRHb\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "ScoringScripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1086",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Scoreboard",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "128",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1664076499819089:681324",
+                                "fileId": "436",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1087",
+                                "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioWCKSoVcoBRHb\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "IncrementP1",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "129",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1664076572965833:689770",
+                                "fileId": "437",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1088",
+                                "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioWCKSoVcoBRHb\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "IncrementP2",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "130",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1664076594536476:693030",
+                                "fileId": "438",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1089",
+                                "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioWCKSoVcoBRHb\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "EndGame",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "131",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1664076603267493:694844",
+                                "fileId": "439",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1090",
+                                "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioWCKSoVcoBRHb\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
@@ -6442,7 +6867,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1664067112558349:67177"
+                    "1664077576074257:781317"
                 ]
             }
         },
@@ -9166,6 +9591,62 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "426"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1664071589033220:381981",
+                    "v": {
+                        "infos": {
+                            "originalSize": "1137965",
+                            "compressedSize": "284125",
+                            "originalRAM": "11910080",
+                            "compressedRAM": "11910080",
+                            "extension": "t3d",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "5"
+                            }
+                        },
+                        "uncompressed_file": "429",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "dedd2f5d594ddfdfca55142f145c8e05",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "430"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1664072031741521:414725",
+                    "v": {
+                        "infos": {
+                            "originalSize": "364",
+                            "compressedSize": "4201",
+                            "originalRAM": "8294400",
+                            "compressedRAM": "1036800",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "433",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "d4d6dafea9e7488ce9c790ae221487e5",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "434"
                             }
                         ]
                     }
