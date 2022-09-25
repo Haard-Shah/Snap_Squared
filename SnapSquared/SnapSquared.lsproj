@@ -3,7 +3,7 @@
     "document_id": "h1VCr4URAmzK6Nm3b5VE",
     "original_document_id": "h1VCr4URAmzK6Nm3b5VE",
     "version": "29",
-    "lastChanged": "1664077602728",
+    "lastChanged": "1664081195759",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -32,6 +32,9 @@
             "collapsedList": [
                 [
                     [
+                        "Behavior"
+                    ],
+                    [
                         "Bounce"
                     ],
                     [
@@ -58,6 +61,9 @@
                         "Player_Card_Randomiser"
                     ],
                     [
+                        "ScoringScripts"
+                    ],
+                    [
                         "ScoringScripts",
                         "EndGame"
                     ],
@@ -74,10 +80,10 @@
                         "Scoreboard"
                     ],
                     [
-                        "Test"
+                        "Script"
                     ],
                     [
-                        "Textures"
+                        "Test"
                     ],
                     [
                         "Textures",
@@ -1493,6 +1499,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "132",
+                    "uid": "1664079462270098:6343",
+                    "name": "Files\/File440.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "133",
+                    "uid": "1664079545475220:13022",
+                    "name": "Files\/File441.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1534,9 +1556,7 @@
                 "15": "1664071925345104:407172",
                 "16": "1664073074047861:498699",
                 "17": "1664073247592180:514187",
-                "18": "1664077259414575:749582",
-                "19": "1664077532958164:774611",
-                "20": "1664077576074257:781317"
+                "18": "1664077259414575:749582"
             }
         },
         "LayerComponent": {
@@ -3162,6 +3182,14 @@
                 {
                     "k": "439",
                     "v": "Files\/File439.js"
+                },
+                {
+                    "k": "440",
+                    "v": "Files\/File440.js"
+                },
+                {
+                    "k": "441",
+                    "v": "Files\/File441.js"
                 }
             ]
         },
@@ -3627,6 +3655,14 @@
                     {
                         "k": "1090",
                         "v": "ScoringScripts\/EndGame.js"
+                    },
+                    {
+                        "k": "1091",
+                        "v": "Script.js"
+                    },
+                    {
+                        "k": "1092",
+                        "v": "Behavior.js"
                     }
                 ],
                 "hashes": [
@@ -4088,7 +4124,7 @@
                     },
                     {
                         "k": "1081",
-                        "v": "d75708ff4bd3021f4a297dc420874f8c"
+                        "v": "02615d179004b5f9a3e3a83f02b56865"
                     },
                     {
                         "k": "1082",
@@ -4104,28 +4140,43 @@
                     },
                     {
                         "k": "1087",
-                        "v": "6ce3f0a6b63ae4f75c3b6ace3cdc8eea"
+                        "v": "3d0e0f6e6ac10a3dfe7e4b8c732c6e62"
                     },
                     {
                         "k": "1088",
-                        "v": "f2a97a8583b9642e3110b7aecf1b4b03"
+                        "v": "54cc32127ac61f4c990dfca7972e1fe9"
                     },
                     {
                         "k": "1089",
-                        "v": "6fc0ac4f97a4703c5360604e4cf34a13"
+                        "v": "ee40605e2eb07008606712b48a7ae1a3"
                     },
                     {
                         "k": "1090",
                         "v": "bf888d2bced7d8ae2a196086fa6a0dc7"
+                    },
+                    {
+                        "k": "1091",
+                        "v": "59361291686fd7cebf3981836238abbb"
+                    },
+                    {
+                        "k": "1092",
+                        "v": "324d936bf1b61fe7a9ad8efc0bd63807"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-09-25T13:42:54",
+                        "lastModified": "2022-09-25T14:43:06",
                         "name": "Public",
-                        "hash": "54357158d8e5836a9c42187acb903fc3",
+                        "hash": "5fbf93a1d312ec6e858ded1e02bbe675",
                         "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-09-25T14:19:05",
+                                "name": "Behavior.js",
+                                "hash": "324d936bf1b61fe7a9ad8efc0bd63807",
+                                "children": ""
+                            },
                             {
                                 "isFolder": "false",
                                 "lastModified": "2022-09-25T10:45:13",
@@ -4149,7 +4200,7 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-09-25T12:23:57",
+                                "lastModified": "2022-09-25T14:03:05",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -4163,16 +4214,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-09-25T13:42:54",
+                                "lastModified": "2022-09-25T14:43:06",
                                 "name": "Player_Card_Randomiser.js",
-                                "hash": "d75708ff4bd3021f4a297dc420874f8c",
+                                "hash": "02615d179004b5f9a3e3a83f02b56865",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-09-25T13:43:54",
+                                "lastModified": "2022-09-25T14:45:32",
                                 "name": "ScoringScripts",
-                                "hash": "00085fbf2169f11156ca3343468af8d3",
+                                "hash": "7e0287424c7a273302986667dbd67d73",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4183,33 +4234,40 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T13:28:09",
+                                        "lastModified": "2022-09-25T14:03:05",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T13:43:51",
+                                        "lastModified": "2022-09-25T14:45:24",
                                         "name": "IncrementP1.js",
-                                        "hash": "f2a97a8583b9642e3110b7aecf1b4b03",
+                                        "hash": "54cc32127ac61f4c990dfca7972e1fe9",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T13:43:54",
+                                        "lastModified": "2022-09-25T14:45:32",
                                         "name": "IncrementP2.js",
-                                        "hash": "6fc0ac4f97a4703c5360604e4cf34a13",
+                                        "hash": "ee40605e2eb07008606712b48a7ae1a3",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T13:34:02",
+                                        "lastModified": "2022-09-25T14:39:50",
                                         "name": "Scoreboard.js",
-                                        "hash": "6ce3f0a6b63ae4f75c3b6ace3cdc8eea",
+                                        "hash": "3d0e0f6e6ac10a3dfe7e4b8c732c6e62",
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-09-05T21:40:42",
+                                "name": "Script.js",
+                                "hash": "59361291686fd7cebf3981836238abbb",
+                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -4820,7 +4878,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-09-25T12:23:57",
+                                                "lastModified": "2022-09-25T14:03:05",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4913,7 +4971,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T12:23:57",
+                                        "lastModified": "2022-09-25T14:03:05",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -4926,7 +4984,7 @@
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-09-25T13:28:03",
+                                                "lastModified": "2022-09-25T14:03:05",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -4950,7 +5008,7 @@
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-09-25T12:23:57",
+                                        "lastModified": "2022-09-25T14:03:05",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -6860,6 +6918,34 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Script",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "132",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1664079462270098:6343",
+                        "fileId": "440",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1091",
+                        "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioLmqQnsdSQPJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Behavior",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "133",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1664079545475220:13022",
+                        "fileId": "441",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1092",
+                        "source": "C:\/Users\/t-haardshah\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioLmqQnsdSQPJD\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
@@ -6867,7 +6953,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1664077576074257:781317"
+                    "1664073074047861:498699"
                 ]
             }
         },

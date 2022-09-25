@@ -5,6 +5,26 @@
 // Description: Calls the increment score api on Tapped
 
 // @input Component.ScriptComponent highScoreController
+// @input Component.ScriptComponent CardGen
 
-script.highScoreController.api.incrementP2();
-print("Player 2");
+//@input Asset.Texture snap_image;
+//@input Asset.Texture clear_image;
+// @input Component.Image Snap_banner;
+
+// @input int faceIndex = 1
+
+function callback() {
+    print("p2")
+    
+    if (script.CardGen.api.check_snap()) {
+        print("Snap");
+        script.Snap_banner.mainPass.baseTex = script.snap_image;
+        
+        // update score
+        script.highScoreController.api.incrementP2();
+    }
+}
+
+var event = script.createEvent("MouthOpenedEvent");
+event.faceIndex = script.faceIndex;
+event.bind(callback)

@@ -7,6 +7,7 @@
 // @input Component.Text p1ScoreText
 // @input Component.Text p2ScoreText
 
+
 var P1Score = 0;
 var P2Score = 0;
 
