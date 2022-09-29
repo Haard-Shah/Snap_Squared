@@ -73,7 +73,7 @@ Currently we are detecting the "snap" keyword using a open mount detection event
 
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@CPlant1](hhttps://github.com/CPlant1) - Idea & Initial work
+- [@CPlant1](https://github.com/CPlant1) - Idea & Initial work
 - [@Subik5ha](https://github.com/Subik5ha) - Idea & Image assets
 - [@Haard-Shah](https://github.com/Haard-Shah) - Development & Production
 
